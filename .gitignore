@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+eggs/
+*.whl
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Models and data
+models/
+data/
+checkpoints/
+*.pt
+*.pth
+*.onnx
+*.pkl
+*.bin
+*.safetensors
+
+# HuggingFace cache
+.cache/
+
+# Outputs
+outputs/
+logs/
+runs/
+wandb/
+*.log
+*.png
+*.jpg
+*.html
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment variables
+.env
+.env.local
