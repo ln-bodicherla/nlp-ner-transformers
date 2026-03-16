@@ -1,62 +1,81 @@
-# Python
+
 __pycache__/
-*.py[cod]
-*$py.class
-*.so
-*.egg-info/
-*.egg
-dist/
-build/
-eggs/
-*.whl
-
-# Virtual environments
-.venv/
-venv/
-env/
-ENV/
-
-# IDE
+!.env.example
+!.env.sample
+.build/
+.cache/
+.DS_Store
+.eggs/
+.env
+.env.*
+.env.local
 .idea/
-.vscode/
-*.swp
-*.swo
-*~
+.ipynb_checkpoints/
 .project
 .settings/
-
-# Jupyter
-.ipynb_checkpoints/
-
-# Models and data
-models/
-data/
-checkpoints/
+.swiftpm/
+.venv/
+.vscode/
+*.app
+*.bin
+*.db
+*.db-shm
+*.db-wal
+*.egg
+*.egg-info/
+*.html
+*.ipa
+*.jpg
+*.key
+*.log
+*.onnx
+*.pem
+*.pkl
+*.png
 *.pt
 *.pth
-*.onnx
-*.pkl
-*.bin
+*.py[cod]
+*.pyc
 *.safetensors
-
-# HuggingFace cache
-.cache/
-
-# Outputs
-outputs/
-logs/
-runs/
-wandb/
-*.log
-*.png
-*.jpg
-*.html
-
-# OS
-.DS_Store
-Thumbs.db
-desktop.ini
-
+*.secret
+*.so
+*.sqlite
+*.sqlite3
+*.swo
+*.swp
+*.whl
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+*~
+*$py.class
+# Build
+# Databases
+# Dependencies
 # Environment variables
-.env
-.env.local
+# HuggingFace cache
+# IDE
+# Jupyter
+# Models and data
+# OS
+# Outputs
+# Python
+# Secrets
+# Virtual environments
+build/
+checkpoints/
+credentials*
+data/
+DerivedData/
+desktop.ini
+dist/
+eggs/
+env/
+ENV/
+logs/
+models/
+node_modules/
+outputs/
+runs/
+Thumbs.db
+venv/
+wandb/
