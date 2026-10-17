@@ -1,6 +1,6 @@
 # Named Entity Recognition with Transformers
 
-A production-ready NER system built on fine-tuned BERT and RoBERTa models. Supports training on custom datasets with BIO tagging, evaluation with seqeval metrics, and real-time inference through a FastAPI service. Designed for domain-specific entity extraction tasks.
+An NER system built on fine-tuned BERT and RoBERTa models. Supports training on custom datasets with BIO tagging, evaluation with seqeval metrics, and real-time inference through a FastAPI service. Designed for domain-specific entity extraction tasks.
 
 ## Overview
 
